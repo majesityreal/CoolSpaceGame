@@ -1170,7 +1170,7 @@ MonoBehaviour:
     - Prefab: {fileID: 2097157807893808323, guid: d5b053968900d24408f6858d627f12ba, type: 3}
       PlayerPrefab: 1
     PlayerPrefabHash:
-      Value: 0
+      Value: 1897319656204293034
     CreatePlayerPrefab: 1
     ReceiveTickrate: 64
     MaxReceiveEventsPerTickRate: 500

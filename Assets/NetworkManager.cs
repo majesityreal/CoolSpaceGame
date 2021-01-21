@@ -1,5 +1,6 @@
 ﻿using MLAPI;
 using MLAPI.Transports.UNET;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class NetworkManager : NetworkedBehaviour
@@ -16,6 +17,7 @@ public class NetworkManager : NetworkedBehaviour
             NetworkingManager.Singleton.GetComponent<UnetTransport>().ConnectAddress = ipAddress.text;
             NetworkingManager.Singleton.GetComponent<UnetTransport>().ConnectPort = port;
             NetworkingManager.Singleton.StartClient();
+            Debug.Log("Joined game");
         }
     }
 
@@ -24,6 +26,7 @@ public class NetworkManager : NetworkedBehaviour
         NetworkingManager.Singleton.GetComponent<UnetTransport>().ConnectAddress = "128.61.84.237";
         NetworkingManager.Singleton.GetComponent<UnetTransport>().ConnectPort = port;
         NetworkingManager.Singleton.StartHost();
+        Debug.Log("Hosted game");
     }
 
 
