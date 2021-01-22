@@ -1101,6 +1101,7 @@ GameObject:
   - component: {fileID: 1514976711}
   - component: {fileID: 1514976710}
   - component: {fileID: 1514976712}
+  - component: {fileID: 1514976713}
   m_Layer: 0
   m_Name: NetworkManager
   m_TagString: Untagged
@@ -1211,6 +1212,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ipAddress: {fileID: 1489829943}
   port: 7777
+--- !u!114 &1514976713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514976708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff643c28b71b34241b891d0e56fc4f1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1634082713
 GameObject:
   m_ObjectHideFlags: 0
